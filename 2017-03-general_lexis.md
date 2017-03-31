@@ -3,8 +3,8 @@ title: "A generalization of the Lexis surface"
 author: "Jonas Schöley"
 date: "March 31, 2017"
 output:
-  pdf_document: default
   html_document: default
+  pdf_document: default
 ---
 
 The Lexis surface[^0] is a tool for working with time scales which are linearly dependent on each other, e.g. the two points in time "current period" and "birth cohort" are related by their difference -- the "current age". This relationship can be generalized to $n$ points in time and the $m$ durations between any pair of points. We show that the Lexis diagram, the Lexis' marriage diagram and the APCTDL space are instances of such a generalized Lexis diagram. We start by formalizing the notions of points in time $\textbf{p}$ and durations $\textbf{d}$ between these points.
